@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left-side; /* Center the content horizontally */
+    background-color: #8B008B;
+    padding: 10px 0; /* Top and bottom padding */
+	border-radius: 5px;
+}
+
+.navbar a {
+    color: white; /* Text color */
+    padding: 14px 20px; /* Spacing around the links */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+.navbar a:hover {
+    background-color: #BA55D3; 
+}
+
+
+.home-page {
+    background-image: url('https://img.freepik.com/free-photo/top-view-composition-education-day-elements-with-copy-space_23-2148721216.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 

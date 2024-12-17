@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://image.slidesdocs.com/responsive-images/slides/0-creative-cartoon-style-young-courseware-theme-class-meeting-powerpoint-background_f6a0ce505c__960_540.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 350px;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .role-btn {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .role-btn:hover {
+            background-color: #45a049;
+        }
+        .back-btn {
+            margin-top: 15px;
+            text-align: center;
+            color: #555;
+            font-size: 14px;
+        }
+        .back-btn a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .back-btn a:hover {
+            text-decoration: underline;
+        }
+        .signup-link {
+            color: #333;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        .signup-link a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Login Container -->
+    <div class="container">
+        <h2>Login to Your Account</h2>
+        <form action="login.php" method="post">
+            <input type="text" name="uname" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit" class="role-btn">Login</button>
+        </form>
+        <div class="back-btn">
+            <p>Forgot your password? <a href="#">Reset it here</a></p>
+        </div>
+        <div class="signup-link">
+            <p>If you don't have an account, <a href="signup.html">Sign Up</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
